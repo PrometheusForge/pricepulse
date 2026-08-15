@@ -1,0 +1,21 @@
+- name: "scrapeme_direct"
+  base_url: "https://scrapeme.live/shop/"
+  adapter_key: "scrapeme"
+  mode: "live"
+
+- name: "demo_competitor_a"
+  adapter_key: "synthetic"
+  mode: "synthetic"
+  seed: 101
+  price_jitter: [-0.15, 0.05]
+
+- name: "demo_competitor_b"
+  adapter_key: "synthetic"
+  mode: "synthetic"
+  seed: 202
+  price_jitter: [-0.02, 0.18]
+
+- name: "bestbuy_us"
+  base_url: "https://www.bestbuy.com/"
+  adapter_key: "bestbuy" 
+  mode: "live"

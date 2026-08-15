@@ -1,0 +1,432 @@
+- sku: "DEMO-001"
+  ean: null
+  display_name: "Pikachu Plush"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "pikachu"
+
+- sku: "DEMO-002"
+  ean: null
+  display_name: "Bulbasaur Figure"
+  category: "toys"
+  map_price: 60.0
+  search_terms:
+    - "bulbasaur"
+
+- sku: "DEMO-003"
+  ean: null
+  display_name: "Charmander Plush"
+  category: "toys"
+  map_price: 49.99
+  search_terms:
+    - "charmander"
+
+- sku: "TECH-099"
+  ean: null
+  display_name: "Dell UltraSharp 27 Monitor"
+  category: "electronics"
+  map_price: 450.00
+  search_terms:
+    - "Dell UltraSharp 27"
+    - "U2722D"
+
+- sku: "DEMO-004"
+  ean: null
+  display_name: "Squirtle"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "squirtle"
+
+- sku: "DEMO-005"
+  ean: null
+  display_name: "Caterpie"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "caterpie"
+
+- sku: "DEMO-006"
+  ean: null
+  display_name: "Weedle"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "weedle"
+
+- sku: "DEMO-007"
+  ean: null
+  display_name: "Pidgey"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "pidgey"
+
+- sku: "DEMO-008"
+  ean: null
+  display_name: "Rattata"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "rattata"
+
+- sku: "DEMO-009"
+  ean: null
+  display_name: "Spearow"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "spearow"
+
+- sku: "DEMO-010"
+  ean: null
+  display_name: "Ekans"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "ekans"
+
+- sku: "DEMO-011"
+  ean: null
+  display_name: "Sandshrew"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "sandshrew"
+
+- sku: "DEMO-012"
+  ean: null
+  display_name: "Nidoran"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "nidoran"
+
+- sku: "DEMO-013"
+  ean: null
+  display_name: "Clefairy"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "clefairy"
+
+- sku: "DEMO-014"
+  ean: null
+  display_name: "Vulpix"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "vulpix"
+
+- sku: "DEMO-015"
+  ean: null
+  display_name: "Jigglypuff"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "jigglypuff"
+
+- sku: "DEMO-016"
+  ean: null
+  display_name: "Zubat"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "zubat"
+
+- sku: "DEMO-017"
+  ean: null
+  display_name: "Oddish"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "oddish"
+
+- sku: "DEMO-018"
+  ean: null
+  display_name: "Paras"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "paras"
+
+- sku: "DEMO-019"
+  ean: null
+  display_name: "Venonat"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "venonat"
+
+- sku: "DEMO-020"
+  ean: null
+  display_name: "Diglett"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "diglett"
+
+- sku: "DEMO-021"
+  ean: null
+  display_name: "Meowth"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "meowth"
+
+- sku: "DEMO-022"
+  ean: null
+  display_name: "Psyduck"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "psyduck"
+
+- sku: "DEMO-023"
+  ean: null
+  display_name: "Mankey"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "mankey"
+
+- sku: "DEMO-024"
+  ean: null
+  display_name: "Growlithe"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "growlithe"
+
+- sku: "DEMO-025"
+  ean: null
+  display_name: "Poliwag"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "poliwag"
+
+- sku: "DEMO-026"
+  ean: null
+  display_name: "Abra"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "abra"
+
+- sku: "DEMO-027"
+  ean: null
+  display_name: "Machop"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "machop"
+
+- sku: "DEMO-028"
+  ean: null
+  display_name: "Bellsprout"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "bellsprout"
+
+- sku: "DEMO-029"
+  ean: null
+  display_name: "Tentacool"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "tentacool"
+
+- sku: "DEMO-030"
+  ean: null
+  display_name: "Geodude"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "geodude"
+
+- sku: "DEMO-031"
+  ean: null
+  display_name: "Ponyta"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "ponyta"
+
+- sku: "DEMO-032"
+  ean: null
+  display_name: "Slowpoke"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "slowpoke"
+
+- sku: "DEMO-033"
+  ean: null
+  display_name: "Magnemite"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "magnemite"
+
+- sku: "DEMO-034"
+  ean: null
+  display_name: "Farfetch'd"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "farfetch'd"
+
+- sku: "DEMO-035"
+  ean: null
+  display_name: "Doduo"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "doduo"
+
+- sku: "DEMO-036"
+  ean: null
+  display_name: "Seel"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "seel"
+
+- sku: "DEMO-037"
+  ean: null
+  display_name: "Grimer"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "grimer"
+
+- sku: "DEMO-038"
+  ean: null
+  display_name: "Shellder"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "shellder"
+
+- sku: "DEMO-039"
+  ean: null
+  display_name: "Gastly"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "gastly"
+
+- sku: "DEMO-040"
+  ean: null
+  display_name: "Onix"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "onix"
+
+- sku: "DEMO-041"
+  ean: null
+  display_name: "Drowzee"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "drowzee"
+
+- sku: "DEMO-042"
+  ean: null
+  display_name: "Krabby"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "krabby"
+
+- sku: "DEMO-043"
+  ean: null
+  display_name: "Voltorb"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "voltorb"
+
+- sku: "DEMO-044"
+  ean: null
+  display_name: "Exeggcute"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "exeggcute"
+
+- sku: "DEMO-045"
+  ean: null
+  display_name: "Cubone"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "cubone"
+
+- sku: "DEMO-046"
+  ean: null
+  display_name: "Lickitung"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "lickitung"
+
+- sku: "DEMO-047"
+  ean: null
+  display_name: "Koffing"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "koffing"
+
+- sku: "DEMO-048"
+  ean: null
+  display_name: "Rhyhorn"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "rhyhorn"
+
+- sku: "DEMO-049"
+  ean: null
+  display_name: "Tangela"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "tangela"
+
+- sku: "DEMO-050"
+  ean: null
+  display_name: "Kangaskhan"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "kangaskhan"
+
+- sku: "DEMO-051"
+  ean: null
+  display_name: "Horsea"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "horsea"
+
+- sku: "DEMO-052"
+  ean: null
+  display_name: "Goldeen"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "goldeen"
+
+- sku: "DEMO-053"
+  ean: null
+  display_name: "Staryu"
+  category: "toys"
+  map_price: null
+  search_terms:
+    - "staryu"

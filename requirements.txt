@@ -1,0 +1,13 @@
+playwright
+beautifulsoup4
+requests
+requests-cache
+pyyaml
+pandas
+rapidfuzz
+supabase
+plotly
+streamlit
+python-dotenv
+pytest
+groq

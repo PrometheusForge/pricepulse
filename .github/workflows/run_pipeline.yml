@@ -1,0 +1,38 @@
+name: PricePulse Daily Pipeline
+
+on:
+  schedule:
+    - cron: "0 7 * * *"
+  workflow_dispatch: {}
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          playwright install --with-deps chromium
+
+      - name: Run pipeline engine
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: python -m pricepulse.main
+
+      - name: Commit report snapshot to repository
+        run: |
+          git config user.name "pricepulse-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add reports/
+          git diff --staged --quiet || git commit -m "Daily report snapshot: $(date -u +%Y-%m-%d)"
+          git push

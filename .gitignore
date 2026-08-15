@@ -1,0 +1,10 @@
+venv/
+.env
+__pycache__/
+*.pyc
+.streamlit/secrets.toml
+pricepulse_cache.sqlite
+.pytest_cache/
+pricepulse_cache.sqlite
+
+SCRSHS
