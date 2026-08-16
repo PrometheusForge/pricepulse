@@ -1,14 +1,27 @@
-name: CI
+name: PricePulse Weekly AI Digest
 
-on: [push, pull_request]
-
+on:
+  schedule:
+    - cron: "0 8 * * 1"
+  workflow_dispatch: {}
 jobs:
-  test:
+  run-digest:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - run: pip install -r requirements.txt
-      - run: python -m pytest -v
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate and send AI digest
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: python -m pricepulse.weekly_digest
