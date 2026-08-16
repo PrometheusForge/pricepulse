@@ -4,7 +4,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](#) [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue)](#) [![Built with Streamlit](https://img.shields.io/badge/dashboard-Streamlit-FF4B4B)](#)
 
-**Live Demo:** 
+**Live Demo:** https://pricepulse-encrs62tpfe6ajg7ixbpay.streamlit.app/
 
 ## What is this?
 
