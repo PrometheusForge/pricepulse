@@ -33,6 +33,20 @@ if not st.session_state.session:
         except Exception as e:
             st.error(f"Login failed: {e}")
             
+    st.divider()
+    
+    st.info("💡 **Evaluating for hiring or freelance inquiries?** Click below to inspect a live sandbox tenant without creating an account.")
+    if st.button("🚀 Explore Live Demo (Guest Access)", use_container_width=True):
+        try:
+            res = client.auth.sign_in_with_password({
+                "email": "demo@pricepulse.app", 
+                "password": "DemoAccess2026!"
+            })
+            st.session_state.session = res.session
+            st.rerun()
+        except Exception as e:
+            st.error(f"Demo environment is currently unavailable: {e}")
+            
     st.stop()
 
 if st.session_state.session:
