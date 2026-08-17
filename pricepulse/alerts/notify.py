@@ -1,5 +1,6 @@
 import os
 import requests
+from pricepulse.alerts.notify import alert_map_violations
 
 def send_discord_alert(message: str):
     webhook_url = os.environ["DISCORD_WEBHOOK_URL"]
