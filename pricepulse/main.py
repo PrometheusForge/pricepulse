@@ -81,8 +81,11 @@ def run():
     Path(f"reports/{run_date}.md").write_text(report_md, encoding="utf-8")
     print("--- DAILY REPORT GENERATED ---")
     print(report_md)
+    return df
 
 if __name__ == "__main__":
-    run()
-    map_violations = check_map_violations(df)
-    alert_map_violations(map_violations)
+    df = run()    
+    if df is not None and not df.empty:
+        map_violations = check_map_violations(df)
+        if not map_violations.empty:
+            alert_map_violations(map_violations)
