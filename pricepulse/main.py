@@ -8,10 +8,8 @@ from pricepulse.scraping.scrapeme_adapter import ScrapemeAdapter
 from pricepulse.scraping.demo_synthesizer import synthesize_competitor
 from pricepulse.matching.fuzzy import match_listing_to_product
 from pricepulse.db.client import (get_service_client, upsert_retailer, upsert_product, upsert_listing, record_price)
-from pricepulse.analytics.compare import build_comparison_table
-from pricepulse.reporting.report import render_markdown_report
-from pricepulse.alerts.notify import check_and_alert
 from pricepulse.analytics.compare import build_comparison_table, check_map_violations
+from pricepulse.reporting.report import render_markdown_report
 from pricepulse.alerts.notify import check_and_alert, alert_map_violations
 
 def load_config():
